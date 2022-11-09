@@ -13,8 +13,8 @@ function WidgetArea() {
     <div className="grid grid-cols-1 lg:grid-cols-3">
       {itemsRes && itemsRes.map((item: itemResProps) => (
         <aside key={item.id} className="bg-footerColor mx-auto pt-10 relative
-        first:after:absolute first:after:top-0 first:after:mt-10 first:after:border-r-2 first:after:border-dashed first:after:h-3/4 first:after:border-white first:after:right-0
-        last:before:absolute last:before:top-0 last:before:mt-10 last:before:border-r-2 last:before:border-dashed last:before:h-3/4 last:before:border-white
+        lg:first:after:absolute lg:first:after:top-0 lg:first:after:mt-10 lg:first:after:border-r-2 lg:first:after:border-dashed lg:first:after:h-3/4 lg:first:after:border-white lg:first:after:right-0
+        lg:last:before:absolute lg:last:before:top-0 lg:last:before:mt-10 lg:last:before:border-r-2 lg:last:before:border-dashed lg:last:before:h-3/4 lg:last:before:border-white
         ">
           <div className="px-20 pb-10">
             <a href="#">

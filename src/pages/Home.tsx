@@ -11,7 +11,7 @@ function Home() {
       <article className="lg:relative lg:h-[200px] absolute top-0 w-full -z-[200]">
         <video autoPlay loop muted
           className="absolute max-w-full max-h-auto -z-[200]">
-          <source src="headerVid.mp4" type="video/mp4" />
+          <source src={process.env.PUBLIC_URL + "/headerVid.mp4"} type="video/mp4" />
         </video>
       </article>
       <div className="lg:w-[1180px] mx-auto lg:relative lg:top-40">

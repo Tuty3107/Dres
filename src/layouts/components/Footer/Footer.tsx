@@ -8,13 +8,13 @@ function Footer() {
     <div className="lg:w-full bg-black lg:pb-10 lg:mt-20">
       <WidgetArea />
       <div className="lg:w-[37.4rem] mx-auto text-center bg-black">
-        <div className="w-[9.375rem] h-[5.625rem] mx-auto text-center my-10">
+        <a href="#" className="block w-[9.375rem] h-[5.625rem] mx-auto text-center my-10 cursor-pointer">
           <img
             alt="logo"
             className="content-fill"
             src={process.env.PUBLIC_URL + "/images/duong-restaurant-logo-white.png"}
           />
-        </div>
+        </a>
         <p className="text-white text-sm">
           Email: info@duongrestaurant.com <br></br>
           Tel: +84 243 636 4567 | Hotline: +84 983 135 782 (Viber/Zalo)

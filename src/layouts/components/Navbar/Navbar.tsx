@@ -32,16 +32,16 @@ function Navbar() {
   });
 
   return (
-    <div id="nav" className="lg:w-full lg:fixed relative top-0 lg:pb-7">
+    <div id="nav" className="lg:w-full lg:fixed relative top-0 lg:pb-7 z-[200]">
       <div className="hidden lg:block lg:pt-10">
         <nav className="flex justify-between lg:w-[73.75rem] mx-auto text-sm font-bold uppercase">
-          <div className="logo">
+          <a href="#" className="block cursor-pointer">
             <img
               alt="logo"
               className="w-24 h-14"
               src="https://duongsrestaurant.com/wp-content/uploads/2020/04/duong-restaurant-logo-white.png"
             />
-          </div>
+          </a>
           <ul className="lg:flex lg:text-center">
             {listNavItems.map((item, index) => (
               <MenuItems key={index} items={item} />
