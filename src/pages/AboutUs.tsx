@@ -59,12 +59,12 @@ function AboutUs() {
           <img 
             alt="topchef"
             className="w-[25rem] h-[13.5rem]"
-            src="/images/Hanoi-Restaurant.jpg"
+            src={process.env.PUBLIC_URL + "/images/Hanoi-Restaurant.jpg"}
           />
           <img
             alt="topchef"
             className="w-[25rem] h-[13.5rem]"
-            src="/images/topchef-2.jpg"
+            src={process.env.PUBLIC_URL + "/images/topchef-2.jpg"}
           />
         </div>
         <p className="text-sm leading-7 text-justify">
@@ -97,8 +97,8 @@ function AboutUs() {
             At 27 Ngo Huyen street, Hoan Kiem Dist, Hanoi, Vietnam
           </span>
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-            <img src="/images/galabt/ngohuyen1.jpg" alt="res" />
-            <img src="/images/galabt/ngohuyen2.jpg" alt="res" />
+            <img src={process.env.PUBLIC_URL+ "/images/galabt/ngohuyen1.jpg"} alt="res" />
+            <img src={process.env.PUBLIC_URL + "/images/galabt/ngohuyen2.jpg"} alt="res" />
           </div>
           <div className="mx-auto text-center my-10">
             <Button classes="medium">Reserve Now</Button>
@@ -113,9 +113,9 @@ function AboutUs() {
             101 Ma May street, Hoan Kiem Dist, Hanoi, Vietnam
           </span>
           <figure className="w-[1180px] mx-auto grid grid-cols-2 gap-2">
-            <img alt="dining" src="/images/galabt/mamay1.jpg" />
+            <img alt="dining" src={process.env.PUBLIC_URL + "/images/galabt/mamay1.jpg"} />
             <img alt="dining"
-              src="/images/gallery/home-duong-restaurant-1.jpg"
+              src={process.env.PUBLIC_URL + "/images/gallery/home-duong-restaurant-1.jpg"}
             />
           </figure>
         </div>

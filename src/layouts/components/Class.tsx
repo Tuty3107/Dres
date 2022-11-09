@@ -1,7 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpoon } from "@fortawesome/free-solid-svg-icons";
-import { faTwitch } from "@fortawesome/free-brands-svg-icons";
-import Button from "../../components/Button";
 
 function Class() {
   return (
@@ -26,7 +24,7 @@ function Class() {
             <FontAwesomeIcon icon={faSpoon} />
             Friendly staffs – happy smiles are waiting for you from door to door
           </p>
-          <img alt="classImg" src="/images/class/awards-duong-restaurant.png" />
+          <img alt="classImg" src={process.env.PUBLIC_URL + "/images/class/awards-duong-restaurant.png"} />
         </div>
         <div className="mx-auto text-black border-solid border-2 border-[#6ab28e] w-[240px] h-auto p-5">
           <img
