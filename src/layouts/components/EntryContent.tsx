@@ -17,7 +17,7 @@ function EntryContent() {
         <img
           className="lg:w-[600px] h-[380px] md:float-right lg:float-right px-6"
           alt="content-entry"
-          src="/images/Hanoi-Restaurant.jpg"
+          src={process.env.PUBLIC_URL + "/images/Hanoi-Restaurant.jpg"}
         />
         <p className="text-sm leading-6 my-4 ">
           As I traveled down the road to where I am now, I kept building

@@ -18,7 +18,7 @@ function WidgetArea() {
         ">
           <div className="px-20 pb-10">
             <a href="#">
-              <img alt="widgetarea" className="object-fill" src={item.picSrc} />
+              <img alt="widgetarea" className="object-fill" src={process.env.PUBLIC_URL + `${item.picSrc}`} />
             </a>
           </div>
           <div className="text-white text-center text-sm px-24 py-10">

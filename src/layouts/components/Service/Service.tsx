@@ -29,7 +29,7 @@ function Service() {
                 key={item.id}
                 content={item.content}
                 title={item.title}
-                urlSer={item.urlSer}
+                urlSer={process.env.PUBLIC_URL + `${item.urlSer}`}
               />
             ))}
           </div>

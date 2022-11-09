@@ -32,7 +32,7 @@ function Class() {
           <img
             alt="triIcon"
             className="w-[100px] h[22px]"
-            src="/images/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg"
+            src={process.env.PUBLIC_URL + "/images/Tripadvisor_lockup_horizontal_secondary_registered-11900-2.svg"}
           />
           <a href="#" className="font-bold underline">
             Duong's Restaurant & Cooking Class

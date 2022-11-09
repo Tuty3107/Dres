@@ -6,7 +6,7 @@ function SubMobie({ items, dropdown }: SubProps) {
       style={dropdown ? { display: "block" } : { display: "none" }}>
       {items.map(item => (
         <li key={item.id} className="flex cursor-pointer hover:text-[#f26b38]">
-          {item.srcFlgs && <img className="p-1" alt="flags" src={item.srcFlgs}/>}
+          {item.srcFlgs && <img className="p-1" alt="flags" src={process.env.PUBLIC_URL + `${item.srcFlgs}`}/>}
           <span>{item.content}</span>
         </li>
       ))}

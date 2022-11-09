@@ -8,7 +8,7 @@ function Submenu({ children, items }: SubProps) {
         {items.map((item) => (
           <li key={item.id} className="flex cursor-pointer hover:text-white">
             {item.srcFlgs && 
-            <img className="p-1" alt="flags" src={item.srcFlgs} />}
+            <img className="p-1" alt="flags" src={process.env.PUBLIC_URL + `${item.srcFlgs}`} />}
             <span>{item.content}</span>
           </li>
         ))}
