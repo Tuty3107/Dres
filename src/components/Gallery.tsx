@@ -23,7 +23,7 @@ function Gallery() {
       </div>
       <figure className="lg:w-[1180px] mx-auto grid grid-cols-2 lg:grid-cols-4 gap-2">
         {listGallItems.map((item: galProps) => (
-          <img alt="gallery" key={item.id} src={item.src} />
+          <img alt="gallery" key={item.id} src={process.env.PUBLIC_URL + `${item.src}`} />
         ))}
       </figure>
     </div>

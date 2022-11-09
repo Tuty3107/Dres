@@ -12,7 +12,7 @@ function Footer() {
           <img
             alt="logo"
             className="content-fill"
-            src="/images/duong-restaurant-logo-white.png"
+            src={process.env.PUBLIC_URL + "/images/duong-restaurant-logo-white.png"}
           />
         </div>
         <p className="text-white text-sm">
@@ -25,7 +25,7 @@ function Footer() {
         </p>
         <img
           alt="protectedlogo"
-          src="/images/dmca_protected_sml_120n.png"
+          src={process.env.PUBLIC_URL + "/images/dmca_protected_sml_120n.png"}
           className="mx-auto py-10"
         />
         <br />
