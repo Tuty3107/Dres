@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    font-family: "Roboto", sans-serif;
+  }
+}
+@layer components {
+  .primary {
+    @apply border-solid border-cyan-50 border-2 p-2 text-center text-[1rem] uppercase;
+  };
+  .primaryBg {
+    @apply border-solid border-black border-2 py-2 px-4 text-center text-[0.8rem] uppercase hover:bg-black hover:text-white;
+  }
+  .medium {
+    @apply w-[10rem] h-[2.8125rem] bg-[#dd3333] text-white cursor-pointer text-[1.4rem] hover:bg-[#9b9b9b]
+  };
+  .decorbg {
+    @apply inline-block relative -top-1 before:block before:h-0.5 before:w-40 before:bg-black
+  }
+  .decorPrimary {
+    @apply inline-block relative -top-1 before:block before:h-0.5 before:w-40 before:bg-white
+  }
 }
