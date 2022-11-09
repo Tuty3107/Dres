@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Tuty3107/Dres/static/css/main.47c083c2.css",
-    "main.js": "/Tuty3107/Dres/static/js/main.f565bfcd.js",
-    "static/js/787.c1112931.chunk.js": "/Tuty3107/Dres/static/js/787.c1112931.chunk.js",
-    "static/media/aboutUs.jpg": "/Tuty3107/Dres/static/media/aboutUs.ef59e24b01fdc43b0a4f.jpg",
-    "index.html": "/Tuty3107/Dres/index.html",
-    "main.47c083c2.css.map": "/Tuty3107/Dres/static/css/main.47c083c2.css.map",
-    "main.f565bfcd.js.map": "/Tuty3107/Dres/static/js/main.f565bfcd.js.map",
-    "787.c1112931.chunk.js.map": "/Tuty3107/Dres/static/js/787.c1112931.chunk.js.map"
+    "main.css": "/Dres/static/css/main.813d4196.css",
+    "main.js": "/Dres/static/js/main.4015785e.js",
+    "static/js/787.c1112931.chunk.js": "/Dres/static/js/787.c1112931.chunk.js",
+    "static/media/aboutUs.jpg": "/Dres/static/media/aboutUs.ef59e24b01fdc43b0a4f.jpg",
+    "index.html": "/Dres/index.html",
+    "main.813d4196.css.map": "/Dres/static/css/main.813d4196.css.map",
+    "main.4015785e.js.map": "/Dres/static/js/main.4015785e.js.map",
+    "787.c1112931.chunk.js.map": "/Dres/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47c083c2.css",
-    "static/js/main.f565bfcd.js"
+    "static/css/main.813d4196.css",
+    "static/js/main.4015785e.js"
   ]
 }
